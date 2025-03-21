@@ -12,6 +12,8 @@ kobwebx-serialization-kotlinx = { module = "com.varabyte.kobwebx:kobwebx-seriali
 silk-foundation = { module = "com.varabyte.kobweb:silk-foundation", version.ref = "kobweb" }
 silk-icons-fa = { module = "com.varabyte.kobwebx:silk-icons-fa", version.ref = "kobweb" }
 silk-icons-mdi = { module = "com.varabyte.kobwebx:silk-icons-mdi", version.ref = "kobweb" }
+http4k-core = { group = "org.http4k", name = "http4k-core"}
+http4k-server-undertow = { group = "org.http4k", name = "http4k-server-undertow" }
 
 [plugins]
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
@@ -22,3 +24,4 @@ kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref 
 kobweb = ["kobweb-core", "kobweb-silk"]
 compose = ["compose-html-core", "compose-runtime"]
 silk-icons = ["silk-icons-fa", "silk-icons-mdi"]
+http4k = ["http4k-core", "http4k-server-undertow"]

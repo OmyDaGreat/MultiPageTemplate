@@ -1,14 +1,14 @@
 site:
-  title: "Malefic Kobweb Single Page Template"
+  title: "Malefic Kobweb Multi Page Template"
 
 server:
   files:
     dev:
       contentRoot: "build/processedResources/js/main/public"
-      script: "build/kotlin-webpack/js/developmentExecutable/singlepage.js"
-      api: "build/libs/singlepage.jar"
+      script: "build/kotlin-webpack/js/developmentExecutable/multipage.js"
+      api: "build/libs/multipage.jar"
     prod:
-      script: "build/kotlin-webpack/js/productionExecutable/singlepage.js"
+      script: "build/kotlin-webpack/js/productionExecutable/multipage.js"
       siteRoot: ".kobweb/site"
 
   port: 8080

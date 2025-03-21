@@ -185,3 +185,5 @@ gradle-app.setting
 
 .idea/google-java-format.xml
 .idea/ktlint-plugin.xml
+
+server.pid

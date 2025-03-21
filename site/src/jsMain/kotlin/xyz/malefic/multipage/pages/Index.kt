@@ -1,4 +1,4 @@
-package xyz.malefic.singlepage.pages
+package xyz.malefic.multipage.pages
 
 import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.foundation.layout.Box
