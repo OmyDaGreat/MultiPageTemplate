@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("org.http4k:http4k-bom:6.4.1.0"))
+    implementation(platform("org.http4k:http4k-bom:6.7.0.0"))
     implementation(libs.bundles.http4k)
     testImplementation(kotlin("test"))
 }
